@@ -1,0 +1,48 @@
+ *{
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+
+ }
+
+  /*Navigation bar Styling*/
+.navi ul{
+    list-style-type: none;
+     display: block;}
+
+
+.navi a {
+    text-decoration: none;
+    float: left;
+    color: black;
+    margin: 4px;
+    padding: 6px;
+    display: block;}
+
+.navi a:hover{
+    border-bottom-style: solid;
+    border-color:#ff0000;
+}    
+
+
+    /* trending */
+    .heading-treding{
+        display: flex;
+    }
+
+
+/*cards */
+.wrap_cards li {
+    list-style: none;
+    float:left;
+    margin: 8px;
+    display: inline-block;
+}
+
+
+.title_wrap a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
